@@ -1,7 +1,9 @@
 /* -- Colors -- */
 /* -- Breakpoints -- */
+/* -- Font Size-- */
 /* -- Colors -- */
 /* -- Breakpoints -- */
+/* -- Font Size-- */
 @font-face {
   font-family: "Roboto-Regular";
   src: url(../fonts/Roboto-Regular.ttf);
@@ -14,21 +16,15 @@
   font-family: "Roboto-Medium";
   src: url(../fonts/Roboto-Medium.ttf);
 }
-:root {
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #cacaca;
-  background-color: #08020d;
-}
-
 /* -- Colors -- */
 /* -- Breakpoints -- */
+/* -- Font Size-- */
 h1 {
   font-size: 60px;
   line-height: 90px;
   font-weight: bold;
   text-transform: uppercase;
+  color: #ffffff;
 }
 @media screen and (max-width: 414px) {
   h1 {
@@ -42,6 +38,7 @@ h2 {
   line-height: 57px;
   font-weight: bold;
   text-transform: uppercase;
+  color: #ffffff;
 }
 @media all and (max-width: 414px) {
   h2 {
@@ -49,6 +46,202 @@ h2 {
     line-height: 27px;
     color: #f89202;
   }
+}
+
+.flex, .flex-column {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+  align-content: center;
+}
+
+/* -- Font Size-- */
+.fs-64 {
+  font-size: 64px;
+}
+
+.fs-56 {
+  font-size: 56px;
+}
+
+.fs-48 {
+  font-size: 48px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-12_8 {
+  font-size: 12.8px;
+}
+
+/* -- Margin -- */
+/* m-top */
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-225 {
+  margin-top: 225px;
+}
+
+/* m-bottom */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+/* m-right */
+.mr-20 {
+  margin-right: 30px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+/* -- Padding -- */
+.pa-24 {
+  padding: 24px;
+}
+
+/* p-top */
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+/* p-bottom */
+.pb-24 {
+  padding-bottom: 24px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+/* -- Colors -- */
+/* -- Breakpoints -- */
+/* -- Font Size-- */
+/* -- Colors -- */
+/* -- Breakpoints -- */
+/* -- Font Size-- */
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+@media all and (max-width: 414px) {
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    color: #f89202;
+  }
+}
+
+.flex, .flex-column {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+  align-content: center;
+}
+
+#page-description {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+}
+@media (min-width: 1240px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.header {
+  position: absolute;
+}
+
+:root {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #cacaca;
+  background-color: #08020d;
 }
 
 /*# sourceMappingURL=style.css.map */

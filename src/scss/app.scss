@@ -1,1 +1,9 @@
-@import 'variables', 'fonts', 'general';
+@import 'variables', 'fonts', 'general', 'atomic' ,'page-description.scss';
+
+:root {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: $dark-gray;
+  background-color: $black;
+}

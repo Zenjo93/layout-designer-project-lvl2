@@ -5,6 +5,7 @@ h1 {
   line-height: 90px;
   font-weight: bold;
   text-transform: uppercase;
+  color: #fff;
 
   @media screen and (max-width: $mobile-bp) {
     font-size: 30px;
@@ -17,10 +18,22 @@ h2 {
   line-height: 57px;
   font-weight: bold;
   text-transform: uppercase;
+  color: #fff;
 
   @media all and (max-width: $mobile-bp) {
     font-size: 18px;
     line-height: 27px;
     color: $orange;
   }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  @extend .flex;
+
+  flex-direction: column;
+  align-content: center;
 }
