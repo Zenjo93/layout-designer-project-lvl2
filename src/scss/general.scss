@@ -18,8 +18,9 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
 
-  @media screen and (max-width: $mobile-bp) {
+  @media all and (max-width: $mobile-bp) {
     font-size: 18px;
     line-height: 27px;
+    color: $orange;
   }
 }

@@ -43,10 +43,11 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
 }
-@media screen and (max-width: 414px) {
+@media all and (max-width: 414px) {
   h2 {
     font-size: 18px;
     line-height: 27px;
+    color: #f89202;
   }
 }
 
