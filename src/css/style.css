@@ -1,3 +1,7 @@
+/* -- Colors -- */
+/* -- Breakpoints -- */
+/* -- Colors -- */
+/* -- Breakpoints -- */
 @font-face {
   font-family: "Roboto-Regular";
   src: url(../fonts/Roboto-Regular.ttf);
@@ -11,11 +15,39 @@
   src: url(../fonts/Roboto-Medium.ttf);
 }
 :root {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  color: #CACACA;
-  background-color: #08020D;
+  color: #cacaca;
+  background-color: #08020d;
+}
+
+/* -- Colors -- */
+/* -- Breakpoints -- */
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 414px) {
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

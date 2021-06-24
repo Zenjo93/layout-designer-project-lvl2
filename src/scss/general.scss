@@ -1,0 +1,25 @@
+@import 'variables';
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  @media screen and (max-width: $mobile-bp) {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  @media screen and (max-width: $mobile-bp) {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
