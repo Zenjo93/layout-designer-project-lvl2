@@ -6,6 +6,8 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
+  margin: 0;
+  padding: 0;
 
   @media screen and (max-width: $mobile-bp) {
     font-size: 30px;
@@ -19,6 +21,8 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
+  margin: 0;
+  padding: 0;
 
   @media all and (max-width: $mobile-bp) {
     font-size: 18px;
@@ -36,4 +40,37 @@ h2 {
 
   flex-direction: column;
   align-content: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+
+  @media (min-width: $desktop-bp) {
+    max-width: 1200px;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white {
+  color: $white;
+}
+
+.btn {
+  padding: 20px 30px;
+  border-radius: 5px;
 }

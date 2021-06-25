@@ -1,0 +1,68 @@
+@import '../variables', '../general';
+
+#page-description {
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  display: block;
+  align-self: center;
+}
+
+.text-logo {
+  display: block;
+  align-self: center;
+  color: $white;
+}
+
+.site-search {
+  height: 25px;
+  min-width: 250px;
+  background-color: $dark;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border-width: 0;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+.form {
+  max-width: 570px;
+
+  &-input {
+    min-width: 270px;
+    min-height: 50px;
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $dark-gray;
+    border-radius: 3px;
+    background-color: transparent;
+
+    &::placeholder {
+      color: $white;
+    }
+  }
+}
+
+.btn-form {
+  width: 100%;
+  background-color: $green;
+  color: $white;
+  border-width: 0;
+}
