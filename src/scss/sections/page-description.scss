@@ -1,4 +1,4 @@
-@import '../variables', '../general';
+@import '../variables', '../general', '../atomic';
 
 #page-description {
   background-image: url('../images/banner.png');
@@ -42,9 +42,12 @@ ul {
 
 .form {
   max-width: 570px;
+  justify-content: space-between;
 
   &-input {
+    box-sizing: border-box;
     min-width: 270px;
+    max-width: 45%;
     min-height: 50px;
     padding-left: 20px;
     margin-bottom: 1.5rem;
@@ -65,4 +68,8 @@ ul {
   background-color: $green;
   color: $white;
   border-width: 0;
+
+  @extend .fs-12_8;
+
+  text-transform: uppercase;
 }
