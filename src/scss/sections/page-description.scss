@@ -92,6 +92,10 @@ ul {
     border-radius: 3px;
     background-color: transparent;
 
+    @media (max-width: $mobile-bp) {
+      min-width: 100%;
+    }
+
     &::placeholder {
       color: $white;
     }

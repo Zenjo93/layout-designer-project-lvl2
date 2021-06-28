@@ -48,7 +48,6 @@ h2 {
   h2 {
     font-size: 18px;
     line-height: 27px;
-    color: #f89202;
   }
 }
 
@@ -76,6 +75,7 @@ h2 {
 
 .align-items-center {
   align-items: center;
+  text-align: center;
 }
 
 .container {
@@ -88,7 +88,7 @@ h2 {
 }
 @media (max-width: 414px) {
   .container {
-    margin: 0 20px;
+    padding: 0 20px;
   }
 }
 
@@ -277,7 +277,6 @@ h2 {
   h2 {
     font-size: 18px;
     line-height: 27px;
-    color: #f89202;
   }
 }
 
@@ -305,6 +304,7 @@ h2 {
 
 .align-items-center {
   align-items: center;
+  text-align: center;
 }
 
 .container {
@@ -317,7 +317,7 @@ h2 {
 }
 @media (max-width: 414px) {
   .container {
-    margin: 0 20px;
+    padding: 0 20px;
   }
 }
 
@@ -564,6 +564,11 @@ ul li a:hover {
   border-color: #cacaca;
   border-radius: 3px;
   background-color: transparent;
+}
+@media (max-width: 414px) {
+  .form-input {
+    min-width: 100%;
+  }
 }
 .form-input::placeholder {
   color: #fff;
