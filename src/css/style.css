@@ -952,6 +952,359 @@ h3 {
   text-align: center;
 }
 
+/* -- Colors -- */
+/* -- Breakpoints -- */
+/* -- Font Size-- */
+/* -- Colors -- */
+/* -- Breakpoints -- */
+/* -- Font Size-- */
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+@media all and (max-width: 414px) {
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+@media all and (max-width: 414px) {
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.flex, .flex-column {
+  display: flex;
+}
+
+.flex-mobile {
+  display: flex;
+}
+@media (max-width: 414px) {
+  .flex-mobile {
+    flex-direction: column;
+  }
+}
+
+.flex-column {
+  flex-direction: column;
+  align-content: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.align-items-center {
+  align-items: center;
+  text-align: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.container {
+  margin: 0 auto;
+}
+@media (min-width: 1240px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (max-width: 414px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white {
+  color: #fff;
+}
+
+.btn {
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+/* -- Font Size-- */
+.fs-64 {
+  font-size: 64px;
+}
+
+.fs-56 {
+  font-size: 56px;
+}
+
+.fs-48 {
+  font-size: 48px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-12_8, .btn-form {
+  font-size: 12.8px;
+}
+
+/* -- Margin -- */
+/* m-top */
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-200 {
+  margin-top: 200px;
+}
+
+.mt-225 {
+  margin-top: 225px;
+}
+
+/* m-bottom */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
+}
+
+/* m-right */
+.mr-20 {
+  margin-right: 30px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+/* m-left */
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+/* -- Padding -- */
+.pa-24 {
+  padding: 24px;
+}
+
+/* p-top */
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+/* p-bottom */
+.pb-24 {
+  padding-bottom: 24px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+#page-news {
+  padding-top: 100px;
+}
+
+.news-item {
+  justify-content: space-between;
+}
+.news-item img {
+  width: 47%;
+}
+@media (max-width: 414px) {
+  .news-item img {
+    width: 100%;
+  }
+}
+
+.news-body {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 414px) {
+  .news-body {
+    width: 100%;
+  }
+}
+.news-body p {
+  font-size: 16px;
+}
+@media (max-width: 414px) {
+  .news-body p {
+    width: 100%;
+  }
+}
+
+.news-author {
+  position: relative;
+  left: 35px;
+  color: #f89202;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-right: 45px;
+}
+.news-author::before {
+  display: block;
+  position: absolute;
+  left: -35px;
+  top: 0;
+  content: "";
+  background-image: url("../images/avatar.png");
+  width: 20px;
+  height: 20px;
+}
+
+.news-date {
+  font-size: 12px;
+}
+
+.news-h3 {
+  color: #fff;
+  text-align: left;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: normal;
+  text-transform: none;
+  display: inline;
+}
+@media (max-width: 414px) {
+  .news-h3 {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+.btn-news {
+  width: fit-content;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  padding: 16px 30px;
+  text-decoration: none;
+  color: #cacaca;
+}
+@media (max-width: 414px) {
+  .btn-news {
+    font-size: 12.8px;
+    margin-top: 50px;
+  }
+}
+
+.order-1 {
+  order: -1;
+}
+@media (max-width: 414px) {
+  .order-1 {
+    order: 1;
+  }
+}
+
 :root {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 18px;
