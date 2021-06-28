@@ -35,6 +35,14 @@ h2 {
   display: flex;
 }
 
+.flex-mobile {
+  display: flex;
+
+  @media (max-width: $mobile-bp) {
+    flex-direction: column;
+  }
+}
+
 .flex-column {
   @extend .flex;
 
@@ -55,6 +63,10 @@ h2 {
 
   @media (min-width: $desktop-bp) {
     max-width: 1200px;
+  }
+
+  @media (max-width: $mobile-bp) {
+    margin: 0 20px;
   }
 }
 
