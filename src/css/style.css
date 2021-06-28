@@ -175,6 +175,10 @@ h3 {
   margin-top: 40px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
 .mt-100 {
   margin-top: 100px;
 }
@@ -425,6 +429,10 @@ h3 {
 
 .mt-40 {
   margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
 }
 
 .mt-100 {
@@ -794,6 +802,10 @@ h3 {
   margin-top: 40px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
 .mt-100 {
   margin-top: 100px;
 }
@@ -1114,6 +1126,10 @@ h3 {
   margin-top: 40px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
 .mt-100 {
   margin-top: 100px;
 }
@@ -1302,6 +1318,313 @@ h3 {
 @media (max-width: 414px) {
   .order-1 {
     order: 1;
+  }
+}
+
+/* -- Colors -- */
+/* -- Breakpoints -- */
+/* -- Font Size-- */
+/* -- Colors -- */
+/* -- Breakpoints -- */
+/* -- Font Size-- */
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+@media all and (max-width: 414px) {
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+@media all and (max-width: 414px) {
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.flex, .flex-column {
+  display: flex;
+}
+
+.flex-mobile {
+  display: flex;
+}
+@media (max-width: 414px) {
+  .flex-mobile {
+    flex-direction: column;
+  }
+}
+
+.flex-column {
+  flex-direction: column;
+  align-content: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.align-items-center {
+  align-items: center;
+  text-align: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.container {
+  margin: 0 auto;
+}
+@media (min-width: 1240px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (max-width: 414px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white {
+  color: #fff;
+}
+
+.btn {
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+/* -- Font Size-- */
+.fs-64 {
+  font-size: 64px;
+}
+
+.fs-56 {
+  font-size: 56px;
+}
+
+.fs-48 {
+  font-size: 48px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-12_8, .btn-form {
+  font-size: 12.8px;
+}
+
+/* -- Margin -- */
+/* m-top */
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-200 {
+  margin-top: 200px;
+}
+
+.mt-225 {
+  margin-top: 225px;
+}
+
+/* m-bottom */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
+}
+
+/* m-right */
+.mr-20 {
+  margin-right: 30px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+/* m-left */
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+/* -- Padding -- */
+.pa-24 {
+  padding: 24px;
+}
+
+/* p-top */
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+/* p-bottom */
+.pb-24 {
+  padding-bottom: 24px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+#page-app {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.app-description {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+@media (max-width: 414px) {
+  .app-description {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+}
+
+.app-img {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+}
+@media (max-width: 414px) {
+  .app-img {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+}
+
+.btn-app {
+  border-radius: 32px;
+  padding: 16px 40px;
+  font-size: 12.8px;
+  background-color: #95390c;
+  color: #fff;
+  margin-top: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+@media (max-width: 414px) {
+  .btn-app {
+    margin-top: 5px;
+    display: inline-block;
   }
 }
 
