@@ -1,0 +1,69 @@
+@import '../variables', '../general', '../atomic';
+
+#page-pricing {
+  background-color: $black;
+}
+
+.pricing-item {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+  min-width: 370px;
+  max-width: 27%;
+  align-items: center;
+
+  @media (max-width: $mobile-bp) {
+    margin-bottom: 30px;
+  }
+}
+
+.bg-subs-1 {
+  background-image: url('../images/subscribe_1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-subs-2 {
+  background-image: url('../images/subscribe_2.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-subs-3 {
+  background-image: url('../images/subscribe_3.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.pricing-value {
+  line-height: 1em;
+  font-size: 64px;
+  text-align: center;
+  color: $white;
+
+  .sup-base {
+    font-size: 32px;
+    vertical-align: super;
+    text-transform: uppercase;
+  }
+}
+
+.btn-pricing {
+  box-sizing: border-box;
+  border: 1px solid $white;
+  text-transform: uppercase;
+  width: 100%;
+  text-decoration: none;
+  color: $white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.pricing-footer {
+  margin: 65px 0;
+  font-size: 12.8px;
+  color: $white;
+  text-align: center;
+}

@@ -12,10 +12,12 @@
   width: 100%;
   justify-content: space-between;
   top: 25px;
+  margin: 0;
 
   @media (max-width: $mobile-bp) {
     flex-direction: column;
     justify-content: flex-start;
+    width: 90%;
   }
 }
 
@@ -66,12 +68,14 @@ ul {
   min-width: 250px;
   background-color: $dark;
   padding: 5px 10px;
+  margin-left: 25px;
   border-radius: 50px;
   border-width: 0;
   text-transform: uppercase;
 
   @media (max-width: $mobile-bp) {
     margin-left: 0;
+    max-width: 100%;
   }
 }
 
