@@ -1,15 +1,16 @@
 @import 'variables';
 
+
+/* -- Headlines -- */
+
 h1 {
   font-size: 60px;
   line-height: 90px;
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
-  margin: 0;
-  padding: 0;
 
-  @media screen and (max-width: $mobile-bp) {
+  @media (max-width: $mobile-bp) {
     font-size: 30px;
     line-height: 45px;
   }
@@ -21,16 +22,14 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
-  margin: 0;
-  padding: 0;
-  text-align: center;
 
-  @media all and (max-width: $mobile-bp) {
+  @media (max-width: $mobile-bp) {
     font-size: 18px;
     line-height: 27px;
   }
 }
 
+/*
 h3 {
   color: $white;
   text-transform: uppercase;
@@ -43,6 +42,30 @@ h3 {
     line-height: 24px;
   }
 }
+*/
+
+/* -- Containers -- */
+
+.container {
+  margin: 0 auto;
+
+  @media (min-width: $desktop-bp) {
+    max-width: 1200px;
+  }
+
+  @media (max-width: $mobile-bp) {
+    padding: 0 20px;
+  }
+}
+
+/* -- Containers Properties -- */
+
+.relative {
+  position: relative;
+}
+
+
+/*
 
 .flex {
   display: flex;
@@ -80,18 +103,6 @@ h3 {
   justify-content: space-between;
 }
 
-.container {
-  margin: 0 auto;
-
-  @media (min-width: $desktop-bp) {
-    max-width: 1200px;
-  }
-
-  @media (max-width: $mobile-bp) {
-    padding: 0 20px;
-  }
-}
-
 .relative {
   position: relative;
 }
@@ -112,3 +123,4 @@ h3 {
 .dark-gray {
   color: $dark-gray;
 }
+*/

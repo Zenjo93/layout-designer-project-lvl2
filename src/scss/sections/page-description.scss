@@ -1,25 +1,100 @@
 @import '../variables', '../general', '../atomic';
 
 #page-description {
-  background-image: url('../images/banner.png');
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.main-banner {
+  background-image: url('../../images/banner.png');
   background-position: center;
   background-size: cover;
 }
 
 .header {
-  display: flex;
   position: absolute;
-  width: 100%;
-  justify-content: space-between;
   top: 25px;
-  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12.8px;
 
   @media (max-width: $mobile-bp) {
     flex-direction: column;
-    justify-content: flex-start;
-    width: 90%;
+    align-items: flex-start;
   }
 }
+
+.header-logo-container {
+  color: $white;
+  display: flex;
+  align-items: center;
+  margin-right: 90px;
+
+  @media (max-width: $mobile-bp) {
+    margin-bottom: 15px;
+  }
+
+  > span {
+    margin-left: 16px;
+    white-space: nowrap;
+
+    @media (max-width: $mobile-bp) {
+      font-weight: bold;
+    }
+  }
+}
+
+.header-menu {
+  display: flex;
+
+  @media (max-width: $mobile-bp) {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  li {
+    padding: 0 12px;
+
+    @media (max-width: $mobile-bp) {
+      padding: 0;
+    }
+
+    > a {
+      color: $dark-gray;
+      text-decoration: none;
+
+      @media (max-width: $mobile-bp) {
+        font-weight: bold;
+      }
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
+
+.header-search {
+  margin-left: auto;
+  height: 25px;
+  min-width: 250px;
+  background-color: $dark;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border-width: 0;
+  text-transform: uppercase;
+
+  @media (max-width: $mobile-bp) {
+    margin-left: 0;
+    width: 95%;
+  }
+}
+
+
+/**
 
 .nav-menu {
   display: flex;
@@ -116,3 +191,5 @@ ul {
 
   text-transform: uppercase;
 }
+
+*/
