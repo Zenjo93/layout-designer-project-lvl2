@@ -63,6 +63,10 @@ h3 {
   align-content: center;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .wrap {
   flex-wrap: wrap;
 }
@@ -103,4 +107,8 @@ h3 {
 .btn {
   padding: 20px 30px;
   border-radius: 5px;
+}
+
+.dark-gray {
+  color: $dark-gray;
 }

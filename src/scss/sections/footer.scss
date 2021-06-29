@@ -1,0 +1,68 @@
+@import '../variables', '../general', '../atomic';
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+footer {
+  position: relative;
+  color: $white;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.footer {
+  justify-content: space-between;
+  padding-bottom: 2rem;
+
+  @media (max-width: $mobile-bp) {
+    flex-direction: column;
+  }
+}
+
+footer h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: start;
+}
+
+.footer-nav {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  list-style-type: none;
+
+  a {
+    margin: 0;
+  }
+}
+
+hr {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.under-footer {
+  max-width: 500px;
+  justify-content: space-between;
+  padding-top: 40px;
+
+  @media (max-width: $mobile-bp) {
+    flex-direction: column;
+  }
+}
+
+.footer-image {
+  justify-content: space-between;
+
+  @media (max-width: $mobile-bp) {
+    justify-content: start;
+
+    li:nth-child(1n + 2) {
+      margin-left: 25px;
+    }
+  }
+}
