@@ -684,7 +684,7 @@ h3 {
 }
 
 .main-banner {
-  background-image: url("../../images/banner.png");
+  background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
@@ -693,6 +693,7 @@ h3 {
   position: absolute;
   top: 25px;
   width: 100%;
+  max-width: 1240px;
   display: flex;
   flex-flow: wrap;
   align-items: center;
@@ -774,65 +775,78 @@ h3 {
   }
 }
 
+.h1 {
+  text-align: center;
+}
+@media (max-width: 414px) {
+  .h1 {
+    margin-top: 50px;
+  }
+}
+
+.h2 {
+  text-align: center;
+}
+
+.banner-offer {
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+@media (max-width: 414px) {
+  .banner-offer {
+    margin-top: 15px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 570px;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+.form-input {
+  box-sizing: border-box;
+  min-width: 270px;
+  max-width: 45%;
+  min-height: 50px;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #cacaca;
+  border-radius: 3px;
+  background-color: transparent;
+  font-weight: bold;
+}
+@media (max-width: 414px) {
+  .form-input {
+    min-width: 100%;
+  }
+}
+.form-input::placeholder {
+  color: #fff;
+}
+
+.btn {
+  padding: 20px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.btn-form {
+  width: 100%;
+  background-color: #34c176;
+  color: #fff;
+  border-width: 0;
+}
+
 /**
 
-.nav-menu {
-  display: flex;
 
-  @media screen and (max-width: $mobile-bp) {
-    flex-direction: column;
-  }
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  font-size: 10px;
-
-  li a {
-    text-decoration: none;
-    color: $dark-gray;
-    margin-left: 25px;
-
-    @media screen and (max-width: $mobile-bp) {
-      margin-left: 0;
-    }
-
-    &:hover {
-      color: $white;
-    }
-  }
-}
-
-.logo {
-  width: 24px;
-  height: 24px;
-  display: block;
-  align-self: center;
-}
-
-.text-logo {
-  display: block;
-  align-self: center;
-  color: $white;
-  white-space: nowrap;
-}
-
-.site-search {
-  height: 25px;
-  min-width: 250px;
-  background-color: $dark;
-  padding: 5px 10px;
-  margin-left: 25px;
-  border-radius: 50px;
-  border-width: 0;
-  text-transform: uppercase;
-
-  @media (max-width: $mobile-bp) {
-    margin-left: 0;
-    max-width: 100%;
-  }
-}
 
 .form {
   max-width: 570px;
