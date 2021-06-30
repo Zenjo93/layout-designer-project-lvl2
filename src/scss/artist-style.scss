@@ -1,0 +1,28 @@
+@import 'variables', 'general', 'atomic';
+
+.artist-banner {
+  background-image: url('../images/Morten Harket.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.btn {
+  &-artist {
+    color: $white;
+    width: 200px;
+    font-size: 12.8px;
+    border: none;
+  }
+
+  &-mix {
+    background-color: $purple;
+
+    @media (max-width: $mobile-bp) {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &-fav {
+    background-color: $red;
+  }
+}

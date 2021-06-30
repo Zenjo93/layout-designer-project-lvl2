@@ -1,4 +1,4 @@
-@import 'reset', 'variables', 'fonts', 'general', 'atomic' ,'sections/page-description', 'sections/page-pricing.scss', 'sections/page-news.scss', 'sections/page-app.scss', 'sections/footer.scss';
+@import 'reset', 'variables', 'fonts', 'general', 'atomic' ,'sections/page-description', 'sections/page-pricing.scss', 'sections/page-news.scss', 'sections/page-app.scss', 'sections/footer.scss', 'artist-style.scss';
 
 html {
   overflow-x: hidden;
@@ -9,6 +9,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   color: $dark-gray;
+  background-color: $black;
   background-color: $black;
   overflow-x: hidden;
 }
