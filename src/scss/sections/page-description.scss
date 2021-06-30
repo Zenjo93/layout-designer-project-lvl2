@@ -3,6 +3,7 @@
 #page-description {
   padding-top: 200px;
   padding-bottom: 200px;
+  overflow-x: hidden;
 }
 
 .main-banner {
@@ -161,47 +162,3 @@
   color: $white;
   border-width: 0;
 }
-
-/**
-
-
-
-.form {
-  max-width: 570px;
-  justify-content: space-between;
-
-  &-input {
-    box-sizing: border-box;
-    min-width: 270px;
-    max-width: 45%;
-    min-height: 50px;
-    padding-left: 20px;
-    margin-bottom: 1.5rem;
-    border-width: 2px;
-    border-style: solid;
-    border-color: $dark-gray;
-    border-radius: 3px;
-    background-color: transparent;
-
-    @media (max-width: $mobile-bp) {
-      min-width: 100%;
-    }
-
-    &::placeholder {
-      color: $white;
-    }
-  }
-}
-
-.btn-form {
-  width: 100%;
-  background-color: $green;
-  color: $white;
-  border-width: 0;
-
-  @extend .fs-12_8;
-
-  text-transform: uppercase;
-}
-
-*/

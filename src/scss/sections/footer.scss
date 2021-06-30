@@ -20,12 +20,19 @@ footer {
   }
 }
 
-footer h2 {
+.flex-item {
+  @media (max-width: $mobile-bp) {
+    margin-bottom: 30px;
+  }
+}
+
+.h2-footer {
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: start;
+  margin-bottom: 15px;
 }
 
 .footer-nav {
@@ -36,6 +43,8 @@ footer h2 {
 
   a {
     margin: 0;
+    text-decoration: none;
+    color: $white;
   }
 }
 
@@ -53,10 +62,15 @@ hr {
   @media (max-width: $mobile-bp) {
     flex-direction: column;
   }
+
+  li {
+    padding: 7.5px 0;
+  }
 }
 
-.footer-image {
+.footer-icons {
   justify-content: space-between;
+  flex-direction: row;
 
   @media (max-width: $mobile-bp) {
     justify-content: start;
