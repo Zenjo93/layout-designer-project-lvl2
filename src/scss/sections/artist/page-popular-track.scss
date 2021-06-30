@@ -1,0 +1,41 @@
+@import '../../variables', '../../general', '../../atomic';
+
+#page-popular-track {
+  padding-top: 100px;
+}
+
+.grid-popular-tracks {
+  @include grid-container(2, 3);
+
+  @media (max-width: $mobile-bp) {
+    @include grid-container(1, 6);
+  }
+}
+
+.popular-track {
+  display: flex;
+  color: $white;
+  margin-right: 50px;
+  margin-bottom: 25px;
+
+  @media (max-width: $mobile-bp) {
+    margin-right: 0;
+  }
+
+  img {
+    margin-right: 15px;
+    display: inline-block;
+  }
+}
+
+.track-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  &-author,
+  &-duration {
+    color: $dark-gray;
+  }
+}

@@ -1,14 +1,12 @@
-@import '../variables', '../general', '../atomic';
+@import '../../variables', '../../general', '../../atomic';
 
 #page-app {
   padding-top: 100px;
   margin-bottom: 100px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+.grid-container-price {
+  @include grid-container(2, 1);
 }
 
 .app-description {

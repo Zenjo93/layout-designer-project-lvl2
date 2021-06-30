@@ -43,6 +43,12 @@ h3 {
   }
 }
 
+h4 {
+  font-size: 12.8;
+  line-height: 19.2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 /* -- Containers -- */
 
@@ -58,12 +64,6 @@ h3 {
   }
 }
 
-/* -- Containers Properties -- */
-
-.relative {
-  position: relative;
-}
-
 .flex-container {
   display: flex;
   justify-content: space-between;
@@ -71,6 +71,18 @@ h3 {
   @media (max-width: $mobile-bp) {
     flex-direction: column;
   }
+}
+
+@mixin grid-container($columns, $rows) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  grid-template-rows: repeat($rows, 1fr);
+}
+
+/* -- Containers Properties -- */
+
+.relative {
+  position: relative;
 }
 
 .flex-start {

@@ -1,15 +1,10 @@
-@import 'reset', 'variables', 'fonts', 'general', 'atomic' ,'sections/page-description', 'sections/page-pricing.scss', 'sections/page-news.scss', 'sections/page-app.scss', 'sections/footer.scss', 'artist-style.scss';
-
-html {
-  overflow-x: hidden;
-}
+@import 'reset', 'variables', 'fonts', 'general', 'atomic' ,'sections/index/page-description', 'sections/index/page-pricing.scss', 'sections/index/page-news.scss', 'sections/index/page-app.scss', 'sections/index/footer.scss', 'sections/artist/page-description.scss', 'sections/artist/page-popular-track.scss';
 
 body {
   font-family: 'Roboto-Regular', sans-serif;
   font-size: 18px;
   line-height: 1.5;
   color: $dark-gray;
-  background-color: $black;
   background-color: $black;
   overflow-x: hidden;
 }
